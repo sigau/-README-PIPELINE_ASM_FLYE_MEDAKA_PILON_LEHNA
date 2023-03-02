@@ -14,11 +14,13 @@ yellow { color: yellow }
 ### Nanopore Long-reads 
 The reads should be reunited in a folder and can be gzipped or not (.fastq or .fastq.gz) like:
 
+```
     long_reads_folder
     ├── 01022023_FAW03579_porechoped.fastq.gz
     ├── fastq_runid_ca9af3b5ba9ac03d97b156b20e01b9f569911a7f_44_0.fastq.gz
     ├── fastq_runid_gyfgidgfilga9ac03d97b156b20e01b9f569911a7f_12_0.fastq
     └── fastq_runid_ca9af3b5ba9ac03d97b156b20e01b9f569911a7f_44_0.fastq
+```
 
 You need to give the fullpath to "long_reads_folder" like : /beegfs/data/gdebaecker/Proasellus_meridianus/ont_fastq/
 
