@@ -24,7 +24,11 @@ You need to give the fullpath to "long_reads_folder" like : /beegfs/data/gdebaec
 
 ### Illumina Short-reads (optional)
 The reads can be gzipped or not (.fastq or .fastq.gz).
-You need to give the fullpath to both short-reads file (aka R1 & R2) : /beegfs/data/gdebaecker/Proasellus_coiffaiti/sr_fastq/PC_shortreads_concat_PE_R1.fastq.gz &  /beegfs/data/gdebaecker/Proasellus_coiffaiti/sr_fastq/PC_shortreads_concat_PE_R2.fastq.gz
+You need to give the fullpath to both short-reads file (aka R1 & R2) : 
+
+/beegfs/data/gdebaecker/Proasellus_coiffaiti/sr_fastq/PC_shortreads_concat_PE_R1.fastq.gz
+
+/beegfs/data/gdebaecker/Proasellus_coiffaiti/sr_fastq/PC_shortreads_concat_PE_R2.fastq.gz
 
 ## Run the pipeline 
 
