@@ -13,6 +13,7 @@ yellow { color: yellow }
 ## Input
 ### Nanopore Long-reads 
 The reads should be reunited in a folder and can be gzipped or not (.fastq or .fastq.gz) like:
+
     long_reads_folder
     ├── 01022023_FAW03579_porechoped.fastq.gz
     ├── fastq_runid_ca9af3b5ba9ac03d97b156b20e01b9f569911a7f_44_0.fastq.gz

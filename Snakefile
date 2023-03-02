@@ -233,7 +233,7 @@ rule QC_assembly_busco:
         rules.assembly_flye.output
     output:
         expand("{out_dir}/QC/BUSCO/{asm_name}_DRAFT/logs/busco.log", out_dir=config["out_dir"],asm_name=config["asm_name"])
-    threads: 4
+    threads: full_core
     message: "Quality Control of the assembly using BUSCO"
     params:
         out_dir=expand("{out_dir}/QC/BUSCO/", out_dir=config["out_dir"]),
@@ -267,7 +267,7 @@ rule QC_polishing_busco_SR:
         rules.pilon_polish.output
     output:
         expand("{out_dir}/QC/BUSCO/{asm_name}_medaka_pilon_polish/logs/busco.log", out_dir=config["out_dir"],asm_name=config["asm_name"])
-    threads: 4
+    threads: full_core
     message: "Quality Control of the polish assembly using BUSCO"
     params:
         out_dir=expand("{out_dir}/QC/BUSCO/", out_dir=config["out_dir"]),
@@ -301,7 +301,7 @@ rule QC_polishing_busco_LR:
         rules.polishing_medaka.output
     output:
         expand("{out_dir}/QC/BUSCO/{asm_name}_medaka_polish/logs/busco.log", out_dir=config["out_dir"],asm_name=config["asm_name"])
-    threads: 4
+    threads: full_core
     message: "Quality Control of the polish assembly using BUSCO"
     params:
         out_dir=expand("{out_dir}/QC/BUSCO/", out_dir=config["out_dir"]),
