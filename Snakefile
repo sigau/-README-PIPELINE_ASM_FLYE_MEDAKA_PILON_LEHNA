@@ -332,7 +332,7 @@ rule asm_polish_LR:
         ba=rules.QC_assembly_busco.output,
         qr=rules.QC_reads.output
 
-rule assembly:
+rule ont_only:
     input:
         qa=rules.QC_assembly_quast.output,
         ba=rules.QC_assembly_busco.output,
